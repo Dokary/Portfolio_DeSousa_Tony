@@ -52,10 +52,25 @@ header {
 
 }
 
+#intro_texte {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 24px; 
+}
+
 button {
     background-color: #BB00FF;
     border-radius: 20px;
     color: white;
-    width: 100px;
+    width: 200px;
     height: 45px;
+    border: none; 
+}
+
+.experience-container {
+    display: flex;
+    align-items: center;
 }
