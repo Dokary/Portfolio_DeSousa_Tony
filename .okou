@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Tony De Sousa
+    </header>
+    <main>
+        <section class="Intro">
+            <div class="Intro-gauche">
+                <h1>Portfolioo</h1>
+                <p id="intro_texte">Bienvenue sur mon portfolio Ce portfolio rassemble une sélection de mes projets, chacun conçu avec attention et créativité. Vous y découvrirez mon parcours, mes compétences et l’approche que j’adopte pour relever différents défis. Chaque réalisation est pour moi l’occasion d’apprendre, d’expérimenter et de m’améliorer. N’hésitez pas à explorer et à me contacter si vous avez des questions ou des idées à partager. Bonne visite !</p>
+                <a href="">
+                    <button>DÉCOUVRIR</button>
+                </a>
+            </div>
+            <div class="Intro-droite">
+                <img id="viktor" src="img/Arcane Viktor.jpeg" alt="">
+            </div>
+        </section>
+        
+        <section class="experiences">
+            <div class="experience-header">
+                <h1>Expériences</h1>
+            </div>
+            <div class="experience-container">
+                <div class="experience-gauche">
+                    <img src="img/barre expériences .png" alt="">
+                </div>
+                <div class="experience-droite">
+                    <p>CFA ANAFE Graphiste, secrétaire, éboueur, démarcheur téléphonique, standardiste</p>
+                    <p>maison beaurepaire, community manager</p>
+                    <p>Mélanie Pivault designer freelance, stage</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="formation">
+            <h1>Formation</h1>
+            <div class="formation-gauche">
+                <p>CFA ANAFE TP CDUI</p>
+                <p>Lycée alfred costes Bac Pro Communication visuelle</p>  
+            </div>
+            <div class="formation-droite">
+            </div>
+        </section>
+
+        <section class="compétences">
+            <div class="compétences-gauche">
+                <h1>Compétences</h1>
+            </div>
+            <div class="compétences-droite">
+                <img src="" alt="">
+            </div>
+        </section>
+
+        <section class="projets">
+            <div>
+                <h1>Projets et réalisations</h1>
+            </div>
+        </section>
+        <section class="contact">
+            <div>
+                <h1>Contact</h1>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin:0;
+}
+
+body {
+    background-color: #2D0077;
+    color: white;
+    font-family: 'DM Sans';
+
+ 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+header {
+    background-color: #6F00FF;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.Intro {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6F00FF ;
+
+    height: 90vh;
+    width: 75%;
+
+    border-radius: 20px;
+}
+
+.Intro-gauche {
+    display:flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#viktor {
+    border-radius: 20px;
+    width: 350px;
+    height: 420px;
+
+}
+
+#intro_texte {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 24px; 
+}
+
+button {
+    background-color: #BB00FF;
+    border-radius: 20px;
+    color: white;
+    width: 200px;
+    height: 45px;
+    border: none; 
+}
+
+.experience-container {
+    display: flex;
+    align-items: center;
+}
